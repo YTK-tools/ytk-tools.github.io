@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PWHT 計画・記録チェックシート（Excel）｜溶接後熱処理の保持時間・加熱冷却速度を自動判定｜YTK tools</title>
+<meta name="description" content="溶接後熱処理（PWHT）の計画と温度記録の確認をExcelで。JIS Z 3700・ASME VIII Div.1（UCS-56）・Div.2の区分と板厚から保持温度・保持時間・最大加熱/冷却速度を表示し、記録計のデータを貼り付けるだけで自動判定。報告書つき、マクロ不使用の.xlsx。">
+<link rel="canonical" href="https://ytk-tools.github.io/pwht/">
+<meta property="og:title" content="PWHT 計画・記録チェックシート（Excel）">
+<meta property="og:description" content="規格と板厚を選ぶだけで要求値を表示。温度記録を貼るだけで自動判定。">
+<meta property="og:image" content="https://ytk-tools.github.io/images/pwht-1.png">
+<meta property="og:type" content="product">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PWHT 計画・記録チェックシート","applicationCategory":"BusinessApplication","operatingSystem":"Windows（Microsoft Excel 2016以降／Microsoft 365）","offers":{"@type":"Offer","price":"3000","priceCurrency":"JPY","url":"https://coconala.com/services/4434035"},"author":{"@type":"Organization","name":"YTK tools"}}
+</script>
+</head>
+<body>
+<header class="site"><div class="in"><a href="../">YTK <span>tools</span></a></div></header>
+<div class="hero"><div class="in">
+<span class="tag">溶接技術者向け Excelツール</span>
+<h1>PWHT<br><em>計画・記録チェックシート</em></h1>
+<p>規格・区分と板厚を選ぶだけで要求値を表示。<br>温度記録計のデータを貼り付けるだけで、保持時間や加熱・冷却速度を自動で判定します。</p>
+<ul class="chips"><li>JIS Z 3700</li><li>ASME VIII Div.1</li><li>ASME VIII Div.2</li><li>熱電対6点</li><li>最大2000行</li><li>報告書つき</li></ul>
+<a class="btn" href="https://coconala.com/services/4434035" rel="noopener">販売ページで詳細を見る<small>3,000円（税込）・買い切り</small></a>
+</div></div>
+<main>
+<section>
+<h2>こんな場面で使えます</h2>
+<ul class="check">
+<li>PWHTの計画を立てるたびに、規格の表から保持時間や速度を手計算している</li>
+<li>記録計のチャートを見ながら、加熱・冷却速度や保持時間を目で確認している</li>
+<li>熱処理記録の確認結果を、毎回同じ形式で報告書に残したい</li>
+<li>外注先の熱処理記録を受け入れるときのチェックを効率化したい</li>
+</ul>
+</section>
+<section>
+<h2>主な機能</h2>
+<ul class="check">
+<li>規格・区分と熱処理板厚 t を選ぶと、最低保持温度・最小保持時間・最大加熱速度・最大冷却速度を表示</li>
+<li>計画値（保持温度・保持時間・加熱/冷却速度・炉入れ/炉出し温度）をOK/NGで判定し、計画の温度-時間線図を描画</li>
+<li>温度記録計のデータ（日時または経過時間、熱電対6点まで、最大2000行）を貼り付けるだけで実績を自動判定</li>
+<li>判定項目：保持中の温度範囲、保持時間、最大加熱速度、最大冷却速度、加熱・冷却中と保持中の温度差、炉入れ・記録終了時の温度</li>
+<li>加熱/冷却速度は「1時間ごとの温度変化」など、算出幅を指定して計算（記録間隔が細かくても判定がぶれません）</li>
+<li>規格の要求・計画・実績を並べた判定・報告書（グラフ・押印欄つき、A4 1枚）</li>
+<li>規格条件の表は編集でき、社内基準や契約仕様の区分も追加できます</li>
+</ul>
+<figure><img src="../images/pwht-2.png" alt="規格・区分と板厚から要求値を表示し、計画値を判定する計画シート" loading="lazy"></figure>
+<figure><img src="../images/pwht-3.png" alt="総合判定と温度-時間グラフつきの判定・報告書" loading="lazy"></figure>
+</section>
+<section>
+<h2>収録している規格・区分（初期値）</h2>
+<table>
+<tr><th>JIS Z 3700</th><td>P-1、P-3、P-4、P-5、P-9A/9B</td></tr>
+<tr><th>ASME Section VIII Div.1（UCS-56）</th><td>P-No.1、3、4、5A、9A</td></tr>
+<tr><th>ASME Section VIII Div.2</th><td>P-No.1、3、4、5A、9A</td></tr>
+</table>
+<p class="note">初期値は公開情報をもとにした参考値です。規格の版や免除条件・代替条件は反映していません。ご使用前に最新の規格本文と契約・WPSの要求でご確認ください。</p>
+</section>
+<section>
+<h2>仕様・動作環境</h2>
+<table>
+<tr><th>形式</th><td>Excelファイル（.xlsx）。マクロ不使用で、数式とグラフだけで動きます</td></tr>
+<tr><th>動作環境</th><td>Windows版 Microsoft Excel（2016以降／Microsoft 365）</td></tr>
+<tr><th>お届け</th><td>ご購入者のお名前（会社名）を記入したライセンス入りファイルをお送りします</td></tr>
+<tr><th>価格</th><td>3,000円（税込）・買い切り</td></tr>
+<tr><th>作成者</th><td>YTK tools（溶接技術管理者 WES 特別級が作成）</td></tr>
+</table>
+<p class="note">判定は熱処理記録の確認を補助するものです。最終的な合否は担当者が記録を確認してご判断ください。</p>
+</section>
+<div class="cta">
+<a class="btn" href="https://coconala.com/services/4434035" rel="noopener">販売ページで購入・質問する<small>購入前のご質問も販売ページから受け付けています</small></a>
+</div>
+</main>
+<footer>&copy; YTK tools ／ <a href="../">ツール一覧</a></footer>
+</body>
+</html>
